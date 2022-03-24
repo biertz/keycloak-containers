@@ -14,8 +14,8 @@ if [ "$GIT_REPO" != "" ]; then
 
     # Install Maven
     cd /opt/jboss 
-    curl -s https://apache.uib.no/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz | tar xz
-    mv apache-maven-3.8.4 /opt/jboss/maven
+    curl -s https://apache.uib.no/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.tar.gz | tar xz
+    mv apache-maven-3.8.5 /opt/jboss/maven
     export M2_HOME=/opt/jboss/maven
 
     # Clone repository
